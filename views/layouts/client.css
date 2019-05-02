@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+    width: 100vw;
+    background: #D3D4D9;
+}
+#main-container {
+  padding: 20px;
+}
+#keyword-search-box {
+  vertical-align: bottom;
+  width: auto;
+  height: 40px;
+  display: inline-block;
+  padding-top: 2vh;
+  padding-left: 35vw;
+  padding-right: 35vw;
+  padding-bottom: 2vh;
+}
+#submit-button{
+  background-color: #4B88A2;
+  border: none;
+  width: 70px;
+  height: 20px;
+  color: #FFF9FB;
+}
+#text-search-feild{
+  height: 20px;
+  border: none;
+}
+#search-return-box{
+  max-width: 95vw;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#card{
+  max-width: 600px;
+  max-height: 600px;
+  margin: 5px;
+  background-color: #4B88A2;
+}
+#card-image{
+  max-width: 550px;
+  max-height: 450px;
+  min-width: 10vw;
+  min-height: 13vw;
+  padding-left: .125rem;
+  padding-right: .125rem;
+  padding-top: .125rem;
+}
+a{
+  text-decoration: none;
+}
+#card-info{
+  max-width: 15vw;
+  padding-left: 2vw;
+}
+#card-info-headers{
+  font-size: 1.5em;
+  color: #FFF9FB;
+  margin: 0;
+  padding-left: .25rem;
+  padding-top: .5rem;
+}
+p{
+  padding-top: .5rem;
+  padding-left: 0.25rem;
+  margin:0;
+  color: #FFF9FB;
+}

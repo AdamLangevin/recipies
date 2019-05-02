@@ -1,0 +1,20 @@
+{
+  "name": "Food2ForkAPI",
+  "version": "0.0.1",
+  "description": "Assignment 4 of 2406, an impementation of the Food 2 Fork API",
+  "author": "Adam Langevin",
+  "contributors": "",
+  "main": "server.js",
+  "start": "node server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^1.2.0",
+    "express": "^4.15.5",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "^10.15.1"
+  }
+}
